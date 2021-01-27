@@ -1,6 +1,6 @@
-import React from 'react';
-import Document, {Head, Main, NextScript} from 'next/document';
-import {ServerStyleSheet} from 'styled-components';
+import React from "react";
+import Document, { Head, Main, NextScript } from "next/document";
+import { ServerStyleSheet } from "styled-components";
 
 import {
   name,
@@ -15,10 +15,10 @@ import {
   siteThumbnail,
   siteUrl,
   username,
-} from '../config';
+} from "../config";
 
 class AppDocument extends Document {
-  static getInitialProps({renderPage}) {
+  static getInitialProps({ renderPage }) {
     const sheet = new ServerStyleSheet();
     const page = renderPage((App) => {
       return (props) => {
@@ -26,7 +26,7 @@ class AppDocument extends Document {
       };
     });
     const styleTags = sheet.getStyleElement();
-    return {...page, styleTags};
+    return { ...page, styleTags };
   }
 
   render() {
