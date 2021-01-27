@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 import {
   IconGithub,
@@ -11,30 +11,33 @@ import {
   IconFork,
   IconExternalLink,
   IconFolderOpen,
-} from './index';
+  IconDoc,
+} from "./index";
 
-const InsertIcon = ({icon}) => {
+const InsertIcon = ({ icon }) => {
   switch (icon) {
-    case 'github':
+    case "github":
       return <IconGithub />;
-    case 'linkedin':
+    case "linkedin":
       return <IconLinkedIn />;
-    case 'stack-overflow':
+    case "stack-overflow":
       return <IconStackOverflow />;
-    case 'behance':
+    case "behance":
       return <IconBehance />;
-    case 'medium':
+    case "medium":
       return <IconMedium />;
-    case 'twitter':
+    case "twitter":
       return <IconTwitter />;
-    case 'external-link':
+    case "external-link":
       return <IconExternalLink />;
-    case 'star':
+    case "star":
       return <IconStar />;
-    case 'fork':
+    case "fork":
       return <IconFork />;
-    case 'folder-open':
+    case "folder-open":
       return <IconFolderOpen />;
+    case "doc":
+      return <IconDoc />;
     default:
       return <IconGithub />;
   }
