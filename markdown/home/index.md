@@ -1,8 +1,8 @@
 ---
 title: "Hi, I am"
-name: "Abhijith Vijayan."
+name: "Nitish Gadangi."
 subtitle: "I build things that aren't evil."
 contactText: "Get In Touch"
 ---
 
-I'm a software engineering student based in Kerala, India specializing in developing exceptional, high quality webapps and tools. Currently on the <strong>8th Semester</strong> of <strong>B.Tech Degree.</strong>
+I'm an electronics engineering student based in Hyderabad, India specializing in developing exceptional, <strong>High quality Android Applications</strong> and tools.

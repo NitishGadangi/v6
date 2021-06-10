@@ -1,57 +1,46 @@
 module.exports = {
-  name: "Bharath Chandra",
-  email: "iam@bharathchandra.in",
-  username: "@abhijithvijayan",
+  name: "Nitish Gadangi",
+  email: "nitishgadangi@gmail.com",
+  username: "@nitishgadangi",
 
-  siteTitle: "Abhijith Vijayan | Full Stack Engineer",
+  siteTitle: "Nitish Gadangi | Android Developer",
   siteDescription: "I build things that aren't evil.",
-  siteUrl: "https://v6.netlify.app",
+  siteUrl: "https://nitishgadangi.github.io/",
   siteLanguage: "en-US",
   siteKeywords:
-    "Abhijith-Vijayan, Abhijith-V, abhijith-v, abhijithvijayan, abhijith-vijayan, abhijithv, _abhijithvijayan, _abhijithv, Abhijith-V-CEA, Abhijith-Vijayan-CEA, Abhijith-V-pathanamthitta, Abhijith-Vijayan-pathanamthitta, Abhijith-V-IHRD, Abhijith-Vijayan-IHRD, Abhijith-Vijayan-dev, abhijith-vijayan-developer, web-developer-in-pathanamthitta, abhijithvijayan-ceadoor, abhijith-vijayan-web-developer, full-stack, software-engineer",
+    "Nitish-Gadangi, Nitish-G, nitish-g, nitishgadangi, nitish-gadangi, nitishg, _nitishgadangi, _nitishg, Nitish, Gadangi, Nitish-G-JNTUH, Nitish-Hyderabad, Nitish-Gadangi-jntuhceh, nitish-gadangi-dev, Android-dev, nitish-gadangi-developer, android-developer-in-hyderabad, nitish-jntuhceh, nitish-gadangi-web-developer, full-stack, software-engineer",
 
-  siteThumbnail: "/images/unicorn.png",
-  siteIcon192: "/icons/192x192.png",
-  siteIcon72: "/icons/72x72.png",
-  siteIcon96: "/icons/96x96.png",
-  siteFavicon: "/icons/favicon.ico",
+  siteThumbnail: "/images/logo.png",
+  siteIcon192: "/icons/logo.png",
+  siteIcon72: "/icons/logo.png",
+  siteIcon96: "/icons/logo.png",
+  siteFavicon: "/icons/logo.png",
 
   GRID_LIMIT: 3,
 
-  resume: "/resume.pdf",
+  resume: "https://drive.google.com/file/d/1CsycseTnkYDX99VPAhwsPICVWygWkn2P/view",
 
   socialMedia: [
     {
-      name: "Twitter",
-      icon: "twitter",
-      url: "https://twitter.com/_abhijithv",
+      name: "LinkedIn",
+      icon: "linkedin",
+      url: "https://in.linkedin.com/in/Nitish-Gadangi/",
     },
     {
       name: "Github",
       icon: "github",
-      url: "https://github.com/abhijithvijayan/",
-    },
-    {
-      name: "LinkedIn",
-      icon: "linkedin",
-      url: "https://in.linkedin.com/in/iamabhijithvijayan/",
+      url: "https://github.com/NitishGadangi/",
     },
     {
       name: "Medium",
       icon: "medium",
-      url: "https://medium.com/@abhijithvijayan",
+      url: "https://nitishgadangi.medium.com/",
     },
     {
-      name: "Stack Overflow",
-      icon: "stack-overflow",
-      url:
-        "https://stackoverflow.com/users/9387542/abhijithvijayan?tab=profile",
+      name: "Twitter",
+      icon: "twitter",
+      url: "https://twitter.com/socalledgeek",
     },
-    // {
-    //     name: 'Behance',
-    //     icon: 'behance',
-    //     url: 'https://www.behance.net/abhijithvijayan',
-    // },
   ],
 
   navLinks: [

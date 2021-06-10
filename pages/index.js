@@ -21,6 +21,7 @@ import OtherProject from "../components/OtherProjects";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Articles from "../components/Articles";
+import { Head } from "next/document";
 
 const isServer = typeof window === "undefined";
 
@@ -128,6 +129,7 @@ class HomePage extends Component {
       <Layout>
         <Header />
         <Sidebar />
+        <script type="text/javascript" src="static/buymecoffee.js"></script>
         <main id="content__holder" className="container">
           <Home content={homeContent} />
           <About content={aboutContent} />
